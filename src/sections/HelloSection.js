@@ -15,8 +15,10 @@ export function HelloSection() {
             Twój osobisty moderator treści w internecie
           </h1>
           <p className="max-w-2xl mb-6 font-light text-gray-500 lg:mb-8 md:text-lg lg:text-xl">
-            Wtyczka zapewniająca spersonalizowaną moderację poprzez wykrywanie
-            mowy nienawiści oraz fałszywych informacji.
+            Wtyczka
+            <span className="font-normal italic"> TwitterBuddy </span>
+            zapewnia spersonalizowaną moderację treści na <i>Twitterze</i>{' '}
+            poprzez wykrywanie mowy nienawiści oraz fałszywych informacji.
           </p>
           <div className="flex flex-col items-center lg:block">
             <Button text="Prezentacja" link={PresentationPDF} />

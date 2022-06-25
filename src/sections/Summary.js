@@ -1,24 +1,30 @@
-import HelloImg from '../media/hello.png'
-
 export function Summary() {
   return (
     <section className="bg-gray-50">
       <div className="gap-16 items-center py-8 px-4 mx-auto max-w-screen-xl lg:grid lg:grid-cols-2 lg:py-16 lg:px-6">
         <div className="subpixel-antialiased">
           <h1 className="mb-4 text-4xl font-extrabold text-gray-900">
-            Twój osobisty moderator treści w internecie
+            Zobacz jak to działa!
           </h1>
-          <p className="text-gray-500 sm:text-xl">
-            Wtyczka zapewniająca spersonalizowaną moderację poprzez wykrywanie
-            mowy nienawiści oraz fałszywych informacji.
+          <p className="text-gray-500 font-light sm:text-xl">
+            Przygotowaliśmy krótkie demo prezentujące działanie wtyczki&nbsp;
+            <b>
+              <i>TwitterBuddy</i>
+            </b>
+            .
           </p>
         </div>
-        <div className="grid grid-cols-1 gap-4 mt-4 lg:mt-8 lg:p-4">
-          <img
-            src={HelloImg}
-            className="w-full rounded-lg border border-gray-500"
-            alt="hello-img"
-          />
+        <div className="grid grid-cols-1 gap-4 mt-4 lg:mt-8 py-4 px-8 lg:px-0 lg:order-first">
+          <div class="aspect-video">
+            <iframe
+              style={{ width: '100%', height: '100%' }}
+              title="demo"
+              src="https://www.youtube.com/embed/dQw4w9WgXcQ"
+              frameborder="0"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+              allowfullscreen
+            ></iframe>
+          </div>
         </div>
       </div>
     </section>

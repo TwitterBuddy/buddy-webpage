@@ -1,11 +1,11 @@
 import './App.css'
 import { Header } from './components'
 import {
+  Examples,
   FactChecking,
   HelloSection,
   Motivation,
   PersonalizedHS,
-  Pipeline,
   Summary,
 } from './sections'
 
@@ -16,8 +16,8 @@ function App() {
       <HelloSection />
       <Motivation />
       <PersonalizedHS />
+      <Examples />
       <FactChecking />
-      <Pipeline />
       <Summary />
     </div>
   )
