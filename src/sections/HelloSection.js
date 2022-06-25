@@ -9,8 +9,8 @@ import PresentationPDF from '../media/presentation.pdf'
 export function HelloSection() {
   return (
     <section className="bg-white">
-      <div className="grid max-w-screen-xl px-4 py-8 mx-auto lg:gap-8 xl:gap-0 lg:py-16 lg:grid-cols-12">
-        <div className="mr-auto place-self-center lg:col-span-7 subpixel-antialiased">
+      <div className="gap-16 items-center py-8 px-4 mx-auto max-w-screen-xl lg:grid lg:grid-cols-2 lg:py-16 lg:px-6">
+        <div className="font-light sm:text-lg subpixel-antialiased">
           <h1 className="max-w-2xl mb-4 text-4xl font-extrabold leading-none mg:text-5xl xl:text-6xl">
             Twój osobisty moderator treści w internecie
           </h1>
@@ -18,17 +18,23 @@ export function HelloSection() {
             Wtyczka zapewniająca spersonalizowaną moderację poprzez wykrywanie
             mowy nienawiści oraz fałszywych informacji.
           </p>
-          <Button text="Prezentacja" link={PresentationPDF} />
-          <Button text="Plakat" link={PosterPDF} />
-          <Button
-            text="Wideo demo"
-            link="https://www.youtube.com/watch?v=dQw4w9WgXcQ"
-          >
-            <VideoCameraIcon className="ml-2 h-6 w-6" />
-          </Button>
+          <div className="flex flex-col items-center lg:block">
+            <Button text="Prezentacja" link={PresentationPDF} />
+            <Button text="Plakat" link={PosterPDF} />
+            <Button
+              text="Wideo demo"
+              link="https://www.youtube.com/watch?v=dQw4w9WgXcQ"
+            >
+              <VideoCameraIcon className="ml-2 h-6 w-6" />
+            </Button>
+          </div>
         </div>
-        <div className="hidden lg:mt-0 lg:col-span-5 lg:flex">
-          <img src={HelloImg} alt="hello-img" />
+        <div className="grid grid-cols-1 gap-4 mt-4 lg:mt-8 lg:p-4">
+          <img
+            src={HelloImg}
+            className="w-full rounded-lg border border-gray-500"
+            alt="hello-img"
+          />
         </div>
       </div>
     </section>

@@ -1,8 +1,8 @@
 import HelloImg from '../media/hello.png'
 
-export function Motivation() {
+export function Pipeline() {
   return (
-    <section className="bg-gray-50">
+    <section className="bg-white">
       <div className="gap-16 items-center py-8 px-4 mx-auto max-w-screen-xl lg:grid lg:grid-cols-2 lg:py-16 lg:px-6">
         <div className="subpixel-antialiased">
           <h1 className="mb-4 text-4xl font-extrabold text-gray-900">

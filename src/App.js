@@ -1,6 +1,13 @@
 import './App.css'
 import { Header } from './components'
-import { HelloSection, Motivation } from './sections'
+import {
+  FactChecking,
+  HelloSection,
+  Motivation,
+  PersonalizedHS,
+  Pipeline,
+  Summary,
+} from './sections'
 
 function App() {
   return (
@@ -8,6 +15,10 @@ function App() {
       <Header />
       <HelloSection />
       <Motivation />
+      <PersonalizedHS />
+      <FactChecking />
+      <Pipeline />
+      <Summary />
     </div>
   )
 }
