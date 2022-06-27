@@ -1,10 +1,10 @@
 {
   "files": {
     "main.css": "/buddy-webpage/static/css/main.0d83b48b.css",
-    "main.js": "/buddy-webpage/static/js/main.8946094b.js",
+    "main.js": "/buddy-webpage/static/js/main.93631e5d.js",
     "static/js/787.f41d929f.chunk.js": "/buddy-webpage/static/js/787.f41d929f.chunk.js",
-    "static/media/poster.png": "/buddy-webpage/static/media/poster.9594c0e989a71b368f92.png",
-    "static/media/presentation.pdf": "/buddy-webpage/static/media/presentation.87b097a361c527bda2a7.pdf",
+    "static/media/poster.png": "/buddy-webpage/static/media/poster.d042d4ac4d24f837fef2.png",
+    "static/media/presentation.pdf": "/buddy-webpage/static/media/presentation.8ea9e1bd318634282c28.pdf",
     "static/media/buttons_fact_check.png": "/buddy-webpage/static/media/buttons_fact_check.20bfa1a1c848b7aa39cb.png",
     "static/media/hello.png": "/buddy-webpage/static/media/hello.0877374ee25422d2fded.png",
     "static/media/blur.png": "/buddy-webpage/static/media/blur.c72f0da7b7d11e13de08.png",
@@ -12,11 +12,11 @@
     "static/media/red.png": "/buddy-webpage/static/media/red.17cedd0f01999e2c7b65.png",
     "index.html": "/buddy-webpage/index.html",
     "main.0d83b48b.css.map": "/buddy-webpage/static/css/main.0d83b48b.css.map",
-    "main.8946094b.js.map": "/buddy-webpage/static/js/main.8946094b.js.map",
+    "main.93631e5d.js.map": "/buddy-webpage/static/js/main.93631e5d.js.map",
     "787.f41d929f.chunk.js.map": "/buddy-webpage/static/js/787.f41d929f.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.0d83b48b.css",
-    "static/js/main.8946094b.js"
+    "static/js/main.93631e5d.js"
   ]
 }
